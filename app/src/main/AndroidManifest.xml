@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.xiaolong.exercises">
+
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity_01_Debugging" />
+        <activity android:name=".Activity_02_EventHandling" />
+        <activity android:name=".Activity_03_Simple_Calculator" />
+        <activity android:name=".Activity_04_Contextual_Action_Mode" />
+        <activity android:name=".Activity_05_Context_Menu" />
+        <activity android:name=".exercise_03_inter_activity_data_exchange.Exercise_03_MainActivity" />
+        <activity android:name=".exercise_03_inter_activity_data_exchange.Exercise_03_ColorSelectionActivity" />
+        <activity android:name=".exercise_03_inter_activity_data_exchange.Exercise_03_AlignmentSelectionActivity" />
+        <activity android:name=".exercise_03_inter_activity_data_exchange.Exercise_03_FontSelectionActivity" />
+        <activity android:name=".exercise_03_inter_activity_data_exchange.Exercise_03_TestActivity" />
+        <activity android:name=".exercise_04_implicit_intents.Exercise_04_MainActivity" />
+        <activity android:name=".exercise_05_landscape_and_portrait_layout.Exercise_05_MainActivity" />
+        <activity android:name=".exercise_06_listview.Exercise_06_MainActivity" />
+        <activity android:name=".exercise_06_listview.Exercise_06_Simple_Calculator">
+            <intent-filter>
+                <action android:name="com.example.xiaolong.OPEN_CALCULATOR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".exercise_07_many_intents.Exercise_07_MainActivity" />
+        <activity android:name=".exercise_10_services.Exercise_10_MainActivity">
+            <action android:name="com.example.xiaolong.SERVICE_STATUS_UPDATE" />
+        </activity>
+
+        <service
+            android:name=".exercise_10_services.MyService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":myservicename" />
+
+        <receiver android:name=".exercise_10_services.NewAppWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/new_app_widget_info" />
+        </receiver>
+    </application>
+
+</manifest>

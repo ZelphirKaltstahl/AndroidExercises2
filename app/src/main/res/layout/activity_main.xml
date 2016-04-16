@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.xiaolong.exercises.MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_debugging_button_text"
+                    android:id="@+id/activity_debugging_button"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:onClick="open_debugging_activity"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_event_handling_button_text"
+                    android:id="@+id/activity_event_handling_button"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:onClick="open_event_handling_activity"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_simple_calculator_button_text"
+                    android:id="@+id/activity_simple_calculator_button"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:onClick="open_simple_calculator_activity"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_contextual_action_mode_button_text"
+                    android:id="@+id/activity_contextual_action_mode_button"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:onClick="open_contextual_action_mode_activity"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_context_menu_button_text"
+                    android:id="@+id/activity_context_menu_button"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:onClick="open_context_menu_activity"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_exercise_03_button_text"
+                    android:id="@+id/activity_exercise_03_button"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:onClick="open_exercise_03_activity"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_exercise_04_button_text"
+                    android:id="@+id/activity_exercise_04_button"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:onClick="open_exercise_04_activity"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_exercise_05_button_text"
+                    android:id="@+id/activity_exercise_05_button"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:onClick="open_exercise_05_activity"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_exercise_06_button_text"
+                    android:id="@+id/activity_exercise_06_button"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:onClick="open_exercise_06_activity"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_exercise_07_button_text"
+                    android:id="@+id/activity_exercise_07_button"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:onClick="open_exercise_07_activity"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_exercise_10_button_text"
+                    android:id="@+id/activity_exercise_10_button"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:onClick="open_exercise_10_activity"/>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </TableRow>
+</TableLayout>

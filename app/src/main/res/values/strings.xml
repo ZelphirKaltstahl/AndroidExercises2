@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Android Exercises (Default Locale) - Locales</string>
+
+    <string name="activity_debugging_button_text">Debugging</string>
+    <string name="activity_event_handling_button_text">Event Handling</string>
+    <string name="activity_simple_calculator_button_text">Simple Calculator</string>
+    <string name="activity_contextual_action_mode_button_text">Contextual Action Mode</string>
+    <string name="activity_context_menu_button_text">Context Menu</string>
+    <string name="activity_exercise_03_button_text">Exercise 03 (inter-activity data exchange)</string>
+    <string name="activity_exercise_04_button_text">Exercise 04 (Implicit Intent)</string>
+    <string name="activity_exercise_05_button_text">Exercise 05 (Land and Portrait)</string>
+    <string name="activity_exercise_06_button_text">Exercise 06 (ListView)</string>
+    <string name="activity_exercise_07_button_text">Exercise 07 (Intents)</string>
+
+    <string name="activity_exercise_10_button_text">Exercise 10 (Services)</string>
+
+    <string name="activity_01_debugging_log">Log</string>
+    <string name="activity_01_debugging_toast">Toast</string>
+
+    <string name="activity_02_event_handling_button_text">Event Button</string>
+
+    <string name="activity_03_simple_calculator_add_button_text">+</string>
+    <string name="activity_03_simple_calculator_substract_button_text">-</string>
+    <string name="activity_03_simple_calculator_multiply_button_text">*</string>
+    <string name="activity_03_simple_calculator_divide_button_text">/</string>
+    <string name="activity_03_simple_calculator_default_result_edittext_text">***</string>
+    <string name="activity_03_menu_reset_item_text">Reset</string>
+
+    <string name="activity_04_long_click_me_textview_text">Long click me!</string>
+
+    <string name="activity_05_long_click_me_textview_text">Long click me!</string>
+
+    <string name="exercise_03_textview_text">Hello World!</string>
+    <string name="exercise_03_color_button_text">Color</string>
+    <string name="exercise_03_alignment_button_text">Alignment</string>
+    <string name="exercise_03_font_button_text">Font</string>
+    <string name="exercise_03_test_button_text">Test</string>
+
+    <string name="exercise_03_red_button_text">Red</string>
+    <string name="exercise_03_green_button_text">Green</string>
+    <string name="exercise_03_blue_button_text">Blue</string>
+
+    <string name="exercise_03_left_button_text">Left</string>
+    <string name="exercise_03_center_button_text">Center</string>
+    <string name="exercise_03_right_button_text">Right</string>
+
+    <string name="exercise_03_small_button_text">Small</string>
+    <string name="exercise_03_medium_button_text">Medium</string>
+    <string name="exercise_03_large_button_text">Large</string>
+
+    <string name="exercise_03_isnumber_button_text">is number?</string>
+    <string name="exercise_03_isempty_button_text">is empty?</string>
+
+    <string name="exercise_04_datetime_button_text">show datetime</string>
+    <string name="exercise_04_time_button_text">show time</string>
+
+    <string name="exercise_06_open_calculator_button_text">open calculator</string>
+    <string name="exercise_06_log_selected_button_text">log selected</string>
+    <string name="exercise_06_finish_calculator_button_text">Finish</string>
+
+    <string name="exercise_07_show_website_button_text">show website</string>
+    <string name="exercise_07_show_website_search_term_button_text">show search</string>
+    <string name="exercise_07_show_maps_button_text">show map</string>
+    <string name="exercise_07_show_contact_button_text">show contact</string>
+    <string name="exercise_07_show_number_button_text">show phone number</string>
+    <string name="exercise_07_dial_number_button_text">dial phone number</string>
+    <string name="exercise_07_create_alarm_button_text">create alarm</string>
+    <string name="exercise_07_create_date_button_text">create date</string>
+    <string name="exercise_07_send_mail_button_text">send mail</string>
+    <string name="exercise_07_show_sms_button_text">show SMS</string>
+    <string name="exercise_07_send_sms_button_text">send SMS</string>
+
+
+    <string name="exercise_10_start_service_button_text">start service</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>

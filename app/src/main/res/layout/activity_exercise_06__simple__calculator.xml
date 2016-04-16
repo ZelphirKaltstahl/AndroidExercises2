@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.xiaolong.exercises.Activity_03_Simple_Calculator">
+
+    <TableRow>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/activity_03_simple_calculator_operand_1_edittext"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_weight="0.5"
+            android:layout_span="2"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/activity_03_simple_calculator_operand_2_edittext"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_weight="0.5"
+            android:layout_span="2"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_03_simple_calculator_add_button_text"
+            android:id="@+id/activity_03_simple_calculator_add_button"
+            android:layout_column="0"
+            android:onClick="add"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_03_simple_calculator_substract_button_text"
+            android:id="@+id/activity_03_simple_calculator_substract_button"
+            android:layout_column="1"
+            android:onClick="substract"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_03_simple_calculator_multiply_button_text"
+            android:id="@+id/activity_03_simple_calculator_multiply_button"
+            android:layout_column="2"
+            android:onClick="multiply"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_03_simple_calculator_divide_button_text"
+            android:id="@+id/activity_03_simple_calculator_divide_button"
+            android:layout_column="3"
+            android:onClick="divide"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/activity_03_simple_calculator_default_result_edittext"
+            android:layout_column="0"
+            android:layout_span="4"
+            android:textAlignment="center"
+            android:text="@string/activity_03_simple_calculator_default_result_edittext_text" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exercise_06_finish_calculator_button_text"
+            android:id="@+id/exercise_06_finish_calculator_button"
+            android:layout_column="0"
+            android:layout_span="4"
+            android:onClick="on_finish"/>
+    </TableRow>
+
+</TableLayout>

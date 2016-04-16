@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.xiaolong.exercises.exercise_03_inter_activity_data_exchange.Exercise_03_ColorSelectionActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/exercise_03_red_button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/exercise_03_red_button_text"
+        android:onClick="on_red"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exercise_03_green_button_text"
+        android:id="@+id/exercise_03_green_button"
+        android:layout_below="@+id/exercise_03_red_button"
+        android:layout_alignEnd="@+id/exercise_03_red_button"
+        android:onClick="on_green"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exercise_03_blue_button_text"
+        android:id="@+id/exercise_03_blue_button"
+        android:layout_below="@+id/exercise_03_green_button"
+        android:layout_alignParentStart="true"
+        android:onClick="on_blue"/>
+</RelativeLayout>
